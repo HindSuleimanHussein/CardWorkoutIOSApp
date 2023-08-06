@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8F49D8BC2A7EE836000AFBA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F49D8BB2A7EE836000AFBA9 /* AppDelegate.swift */; };
 		8F49D8BE2A7EE836000AFBA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F49D8BD2A7EE836000AFBA9 /* SceneDelegate.swift */; };
-		8F49D8C02A7EE836000AFBA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F49D8BF2A7EE836000AFBA9 /* ViewController.swift */; };
 		8F49D8C32A7EE836000AFBA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F49D8C12A7EE836000AFBA9 /* Main.storyboard */; };
 		8F49D8C52A7EE83A000AFBA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F49D8C42A7EE83A000AFBA9 /* Assets.xcassets */; };
 		8F49D8C82A7EE83A000AFBA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F49D8C62A7EE83A000AFBA9 /* LaunchScreen.storyboard */; };
+		8F49D8D02A7F780C000AFBA9 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F49D8CF2A7F780C000AFBA9 /* CardSelectionVC.swift */; };
+		8F49D9162A7FD4C7000AFBA9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F49D9152A7FD4C7000AFBA9 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F49D8B82A7EE836000AFBA9 /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F49D8BB2A7EE836000AFBA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F49D8BD2A7EE836000AFBA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8F49D8BF2A7EE836000AFBA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F49D8C22A7EE836000AFBA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F49D8C42A7EE83A000AFBA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F49D8C72A7EE83A000AFBA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F49D8C92A7EE83A000AFBA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F49D8CF2A7F780C000AFBA9 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		8F49D9152A7FD4C7000AFBA9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		8F49D8AF2A7EE836000AFBA9 = {
 			isa = PBXGroup;
 			children = (
+				8F49D9152A7FD4C7000AFBA9 /* Card.swift */,
 				8F49D8BA2A7EE836000AFBA9 /* CardWorkout */,
 				8F49D8B92A7EE836000AFBA9 /* Products */,
 			);
@@ -58,11 +61,11 @@
 			children = (
 				8F49D8BB2A7EE836000AFBA9 /* AppDelegate.swift */,
 				8F49D8BD2A7EE836000AFBA9 /* SceneDelegate.swift */,
-				8F49D8BF2A7EE836000AFBA9 /* ViewController.swift */,
 				8F49D8C12A7EE836000AFBA9 /* Main.storyboard */,
 				8F49D8C42A7EE83A000AFBA9 /* Assets.xcassets */,
 				8F49D8C62A7EE83A000AFBA9 /* LaunchScreen.storyboard */,
 				8F49D8C92A7EE83A000AFBA9 /* Info.plist */,
+				8F49D8CF2A7F780C000AFBA9 /* CardSelectionVC.swift */,
 			);
 			path = CardWorkout;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F49D8C02A7EE836000AFBA9 /* ViewController.swift in Sources */,
 				8F49D8BC2A7EE836000AFBA9 /* AppDelegate.swift in Sources */,
 				8F49D8BE2A7EE836000AFBA9 /* SceneDelegate.swift in Sources */,
+				8F49D8D02A7F780C000AFBA9 /* CardSelectionVC.swift in Sources */,
+				8F49D9162A7FD4C7000AFBA9 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
